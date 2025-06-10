@@ -35,4 +35,4 @@ The application allows for input of an IP address segmented by octets and a CIDR
 
 ## Preview do Projeto
 
-![](sreenshots/preview.png)
+![](screenshots/preview.png)

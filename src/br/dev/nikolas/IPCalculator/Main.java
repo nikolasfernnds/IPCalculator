@@ -1,23 +1,22 @@
 package br.dev.nikolas.IPCalculator;
 
-<<<<<<< HEAD
+
 import javax.swing.SwingUtilities;
-import br.dev.nikolas.IPCalculator.gui.IPCalculatorGUI;
-=======
+import br.dev.nikolas.IPCalculator.gui.*;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList; // Embora não usado no snippet, mantido da original
 import java.util.List;     // Embora não usado no snippet, mantido da original
->>>>>>> 0f5578d5020f1231b5402135121b906ed5a84dc4
+
 
 public class Main {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> new IPCalculatorGUI().createAndShowGUI());
     }
-<<<<<<< HEAD
-=======
+
 }
 
 class IPCalculatorGUI {
@@ -248,5 +247,4 @@ class IPCalculatorGUI {
 
         return subnets;
     }
->>>>>>> 0f5578d5020f1231b5402135121b906ed5a84dc4
 }
